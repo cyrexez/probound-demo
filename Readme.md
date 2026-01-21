@@ -21,6 +21,9 @@ A resilient backend architecture designed to handle **1,000 concurrent users** a
 2. Run `docker-compose up --build`
 3. Access Locust at `http://localhost:8089` to replicate tests.
 4. Configure the Test Parameters:
-      Number of Users: 1000
-      Spawn Rate: 100 (reaches peak load in 10 seconds)
-      Host: http://nginx:80
+
+   Number of Users: 1000
+
+   Spawn Rate: 100 (reaches peak load in 10 seconds)
+
+   Host: http://nginx:80
